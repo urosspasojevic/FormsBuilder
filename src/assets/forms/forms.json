@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Form 1",
+        "fields": [
+            {
+                "label": "Input field",
+                "type": 1
+            },
+            {
+                "label": "Checkbox field",
+                "type": 2
+            }
+        ]
+    },
+    {
+        "name": "Form 2",
+        "fields": [
+            {
+                "label": "Input field",
+                "type": 1
+            },
+            {
+                "label": "Checkbox field 1",
+                "type": 2
+            },
+            {
+                "label": "Checkbox field 2",
+                "type": 2
+            }
+        ]
+    }
+]

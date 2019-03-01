@@ -1,0 +1,8 @@
+<ng-container *ngFor="let form of forms" >
+  <h3>{{form.name}}</h3>
+  <div *ngFor="let field of form.fields">
+    <label>{{field.label}}</label>
+    <input type="text" *ngIf="field.type === FieldType.Input" />
+    <input type="checkbox" *ngIf="field.type === FieldType.Checkbox" />
+  </div>
+</ng-container>
